@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..700&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100%;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}.material-symbols-outlined{font-variation-settings:'FILL' 0,'wght' 400,'GRAD' 0,'opsz' 24;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "surface-variant": "#e8e2d8", "on-tertiary": "#ffffff", "on-primary-fixed": "#052012", "on-secondary-container": "#7a523b", "primary-fixed-dim": "#afceb7", "on-surface-variant": "#424843", "outline-variant": "#c2c8c1", "surface-dim": "#e0d9cf", "inverse-surface": "#333029", "on-tertiary-container": "#ffe3bf", "secondary-fixed-dim": "#f0bb9f", "surface-container-lowest": "#ffffff", "error-container": "#ffdad6", "secondary": "#7d553e", "on-secondary-fixed": "#301403", "tertiary-fixed": "#ffddb1", "on-error-container": "#93000a", "on-surface": "#1e1b15", "surface": "#fff8f0", "primary-fixed": "#cbead3", "primary": "#3a5644", "surface-container": "#f4ede3", "surface-bright": "#fff8f0", "on-secondary-fixed-variant": "#623e29", "on-secondary": "#ffffff", "surface-tint": "#496552", "surface-container-highest": "#e8e2d8", "surface-container-low": "#faf3e8", "on-tertiary-fixed": "#291800", "on-primary": "#ffffff", "on-error": "#ffffff", "on-primary-container": "#d0efd7", "background": "#fff8f0", "primary-container": "#526e5b", "on-tertiary-fixed-variant": "#614000", "tertiary": "#6d4802", "secondary-fixed": "#ffdbc9", "outline": "#727973", "on-primary-fixed-variant": "#324d3b", "inverse-on-surface": "#f7f0e6", "secondary-container": "#ffc9ac", "error": "#ba1a1a", "inverse-primary": "#afceb7", "surface-container-high": "#eee7dd", "tertiary-container": "#88601c", "tertiary-fixed-dim": "#f2be71", "on-background": "#1e1b15" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "gutter-tablet": "1.5rem", "space-sm": "0.5rem", "margin-desktop": "3rem", "space-md": "1rem", "gutter": "1rem", "space-lg": "1.5rem", "margin-tablet": "2rem", "margin": "1rem", "space-xs": "0.25rem", "space-xl": "2rem", "gutter-desktop": "2rem" }, "fontFamily": { "label-lg": ["Plus Jakarta Sans"], "headline-md": ["Newsreader"], "body-lg": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "quote-editorial": ["Newsreader"], "display-lg": ["Newsreader"], "headline-lg": ["Newsreader"], "body-md": ["Plus Jakarta Sans"], "display-lg-mobile": ["Newsreader"], "headline-lg-mobile": ["Newsreader"], "headline-sm": ["Newsreader"] }, "fontSize": { "label-lg": ["14px", { "lineHeight": "18px", "letterSpacing": "0.01em", "fontWeight": "600" }], "headline-md": ["20px", { "lineHeight": "26px", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "label-sm": ["10px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "700" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }], "body-sm": ["12px", { "lineHeight": "16px", "fontWeight": "400" }], "quote-editorial": ["18px", { "lineHeight": "28px", "fontWeight": "400" }], "display-lg": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "400" }], "headline-lg": ["30px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "500" }], "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "display-lg-mobile": ["32px", { "lineHeight": "38px", "letterSpacing": "-0.015em", "fontWeight": "400" }], "headline-lg-mobile": ["24px", { "lineHeight": "30px", "letterSpacing": "-0.01em", "fontWeight": "500" }], "headline-sm": ["17px", { "lineHeight": "22px", "fontWeight": "600" }] } } } }</script></head><body class="bg-surface text-on-surface font-body-md flex flex-col min-h-screen selection:bg-secondary-container selection:text-on-secondary-container"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/85 backdrop-blur-xl shadow-[0_2px_12px_-4px_rgba(74,53,37,0.06)]"><div class="h-16 px-gutter flex items-center justify-between"><div class="flex items-center gap-space-sm"><img alt="My Book Journal Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1UmXa3unTji_VEd6cBGd4bo8JECgwqKSZovuwv1wmByXQNSy_4Q_n92hRYGiP_Ay-GTZwIXrIOiR7lV33t9W1PJw-95Z7BwMUTDBd-EbvJH1A-HwP9ZNzA_PkvdCvJ99CxX9UFLWEWKVt_cgr52rt4uR90K2gRlsuUZsz2XU9-6Kxn_5xPiC_DeaMYzB4VoOACJDa11FJ5nL74sPZKjYhtw6KS4QCXAKFfFAI99_QobrJRhXfadOavArW1o"/><div class="flex flex-col"><span class="font-headline-md text-headline-md text-primary tracking-tight font-serif italic">My Book Journal</span><span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider hidden sm:block">Biblioteca</span></div></div><div class="flex items-center gap-space-sm"><button aria-label="Buscar o filtrar" class="w-11 h-11 flex items-center justify-center rounded-full text-on-surface-variant hover:text-primary hover:bg-surface-container transition-colors"><span class="material-symbols-outlined text-[22px]">search</span></button><a class="w-11 h-11 flex items-center justify-center rounded-full transition-transform active:scale-95" data-path="perfil" href="#"><img alt="Profile" class="w-8 h-8 rounded-full object-cover shadow-[0_1px_4px_rgba(74,53,37,0.12)]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDOEdSaPF5dSZTwkZ-DPCxC5ZzalIAiqx7mkHbkko6aHX11HfRxpzanrMAlIKISgNe_46-33CWWAs4uuVn93tSO6MwYKM28OcQmsX8SRzc3NxZgV-HyeDqVtqgeNqSFigWPvQTEw6EC7FIes_YBgQEM4E7KTeXHfdH0rNxYrg-1-MgKKZnlLy-WqUpcd3PbNSyC7Y54-kqJ2MMclKhXto8KJ576AFDdnCIbFWCXLBDgCfavhUaVU1b8Qw"/></a></div></div></header><main class="flex-1 flex flex-col relative w-full pt-16 pb-28 bg-surface"><div class="flex flex-col w-full pb-8">
+<!-- Cabecera de Biblioteca & Selector de Vista -->
+<section class="px-gutter pt-2 pb-4 flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface font-headline-md tracking-tight">Tu Estantería</span>
+<div class="flex items-center gap-1.5 mt-0.5">
+<span class="w-2 h-2 rounded-full bg-primary inline-block"></span>
+<p class="font-label-sm text-label-sm text-on-surface-variant font-medium">39 volúmenes catalogados</p>
+</div>
+</div>
+<!-- Segmented View Toggle -->
+<div class="flex items-center bg-surface-container-high p-1 rounded-full shadow-inner">
+<button class="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface shadow-sm text-primary transition-all duration-200" id="view-shelves-btn">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">shelves</span>
+<span class="font-label-md text-label-md font-semibold">Estantes</span>
+</button>
+<button class="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-on-surface-variant hover:text-on-surface transition-all duration-200" id="view-grid-btn">
+<span class="material-symbols-outlined text-[18px]">grid_view</span>
+<span class="font-label-md text-label-md font-semibold">Rejilla</span>
+</button>
+</div>
+</div>
+<!-- Resumen táctil de formato -->
+<div class="bg-surface-container-low rounded-xl p-space-md shadow-sm flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-9 h-9 rounded-full bg-secondary-container flex items-center justify-center text-on-secondary-container">
+<span class="material-symbols-outlined text-[19px]">menu_book</span>
+</div>
+<div>
+<p class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Físicos</p>
+<p class="font-headline-sm text-headline-sm text-on-surface font-headline-md">28 tomos</p>
+</div>
+</div>
+<div class="h-7 w-[1px] bg-outline-variant/60"></div>
+<div class="flex items-center gap-space-sm">
+<div class="w-9 h-9 rounded-full bg-surface-container-highest flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[19px]">devices</span>
+</div>
+<div>
+<p class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Ebooks</p>
+<p class="font-headline-sm text-headline-sm text-on-surface font-headline-md">8 digitales</p>
+</div>
+</div>
+<div class="h-7 w-[1px] bg-outline-variant/60"></div>
+<div class="flex items-center gap-space-sm">
+<div class="w-9 h-9 rounded-full bg-tertiary-fixed flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined text-[19px]">headphones</span>
+</div>
+<div>
+<p class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Audio</p>
+<p class="font-headline-sm text-headline-sm text-on-surface font-headline-md">3 grabaciones</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Filtros Horizontales Tipo Chip -->
+<section class="pb-space-md">
+<div class="flex items-center gap-2 overflow-x-auto px-gutter no-scrollbar py-1">
+<button class="px-4 py-2 rounded-full bg-primary text-on-primary font-label-md text-label-md shadow-sm whitespace-nowrap flex items-center gap-1.5 active:scale-95 transition-transform">
+<span>Todos</span>
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary-fixed-dim"></span>
+</button>
+<button class="px-4 py-2 rounded-full bg-surface-container text-on-surface font-label-md text-label-md whitespace-nowrap shadow-sm hover:bg-surface-container-high active:scale-95 transition-all">
+        Físicos (28)
+      </button>
+<button class="px-4 py-2 rounded-full bg-surface-container text-on-surface font-label-md text-label-md whitespace-nowrap shadow-sm hover:bg-surface-container-high active:scale-95 transition-all">
+        Digitales (8)
+      </button>
+<button class="px-4 py-2 rounded-full bg-surface-container text-on-surface font-label-md text-label-md whitespace-nowrap shadow-sm hover:bg-surface-container-high active:scale-95 transition-all">
+        Audiolibros (3)
+      </button>
+<button class="px-4 py-2 rounded-full bg-surface-container text-on-surface font-label-md text-label-md whitespace-nowrap shadow-sm hover:bg-surface-container-high active:scale-95 transition-all">
+        Fantasía
+      </button>
+<button class="px-4 py-2 rounded-full bg-surface-container text-on-surface font-label-md text-label-md whitespace-nowrap shadow-sm hover:bg-surface-container-high active:scale-95 transition-all">
+        Clásicos
+      </button>
+<button class="px-4 py-2 rounded-full bg-surface-container text-on-surface font-label-md text-label-md whitespace-nowrap shadow-sm hover:bg-surface-container-high active:scale-95 transition-all">
+        Romance
+      </button>
+</div>
+</section>
+<!-- ESTANTERÍAS VIRTUALES -->
+<div class="flex flex-col gap-8 mt-2">
+<!-- Estantería 1: Favoritos Inolvidables -->
+<article class="flex flex-col">
+<div class="px-gutter flex items-center justify-between mb-3">
+<div class="flex items-center gap-2">
+<span class="w-6 h-6 rounded-full bg-tertiary-fixed text-tertiary flex items-center justify-center">
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</span>
+<h2 class="font-headline-md text-headline-md text-on-surface font-headline-md tracking-tight">Favoritos Inolvidables</h2>
+<span class="text-label-sm font-label-sm px-2 py-0.5 rounded-full bg-surface-container-high text-on-surface-variant font-medium">4</span>
+</div>
+<button class="text-primary hover:text-primary-container font-label-md text-label-md flex items-center gap-1 transition-colors">
+<span class="material-symbols-outlined text-[16px]">add</span>
+<span>Añadir</span>
+</button>
+</div>
+<!-- Fila de libros con proyección tridimensional sobre madera -->
+<div class="relative pt-4">
+<!-- Contenedor con overflow lateral para libros -->
+<div class="flex items-end gap-5 px-gutter overflow-x-auto no-scrollbar relative z-10 min-h-[190px]">
+<!-- Libro 1: La sombra del viento -->
+<div class="group flex flex-col items-center flex-shrink-0 cursor-pointer transition-transform duration-200 active:scale-95">
+<div class="relative w-[78px] h-[122px] rounded-r-md bg-stone-800 shadow-[4px_6px_14px_rgba(30,27,21,0.28)] transition-all duration-300 group-hover:-translate-y-2">
+<img class="w-full h-full object-cover rounded-r-sm" data-alt="Cover of the gothic mystery novel The Shadow of the Wind, dark sepia photograph of misty gothic Barcelona streets with street lamps glowing amber, textured vintage hardcover binding with gold foil lettering in classic literary serif style" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCrvK2IR-tRiRNd1bn7SFcYae1Ge_ZG2n5yMq7s3KkHh-uTwWgs5HUyBTXkc8E7Hir0OxR4OcUMO0Vij0SzXsw7OktQmRAl49mh4TfvBod8riTQjklKZvAfskOycOr9BpM_ngtbnLCmAZrZv4hDXHvssRir4uuio4lEsjp3r8YpUUISns93ggEgJIjZt80TB9wxPsr3HJ3GtQU1SRJMJcgpc0ogaojyG1rNlpx1G9oV7Kj7opj2sDChLA"/>
+<!-- Lomo 3D en borde izquierdo -->
+<div class="absolute inset-y-0 left-0 w-2.5 bg-gradient-to-r from-black/40 via-black/10 to-transparent rounded-l-xs"></div>
+<!-- Resplandor sutil en la tapa -->
+<div class="absolute inset-y-0 right-0 w-1 bg-gradient-to-l from-white/20 to-transparent"></div>
+</div>
+<div class="w-20 mt-2 text-center">
+<p class="font-label-sm text-label-sm text-on-surface font-semibold truncate">La sombra del viento</p>
+<span class="inline-block px-1.5 py-0.5 text-[9px] font-bold rounded-sm bg-surface-container text-on-surface-variant tracking-wider uppercase">Físico</span>
+</div>
+</div>
+<!-- Libro 2: Orgullo y Prejuicio -->
+<div class="group flex flex-col items-center flex-shrink-0 cursor-pointer transition-transform duration-200 active:scale-95">
+<div class="relative w-[74px] h-[116px] rounded-r-md bg-amber-900 shadow-[4px_6px_14px_rgba(30,27,21,0.28)] transition-all duration-300 group-hover:-translate-y-2">
+<img class="w-full h-full object-cover rounded-r-sm" data-alt="Vintage clothbound classic edition of Pride and Prejudice, delicate sage green and soft terracotta floral vine illustrations embossed on creamy textured linen fabric cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAp-_52ry9S_LvRHHFgABxOGV8uCUtlBVQMOIcKsYC7tRJVgW-NDj4Sr8Dg_HXaBXLC7f53wObLSXKykcE8O5Hv63BUIXrtuaUxOdGuArc6SNWs8lIy_4w75pOuw0BNjTMfXtoCC_jdahTTKI7Jv9_25UajRvsBkvdPmdLCdLoq--4SVQc3XhubBcn-ZkkJsEcRoBF8gAIrRc_bANfEVPVUTUtd-6IZdYEZ_0axJWOTcW1yByXDljZBpA"/>
+<div class="absolute inset-y-0 left-0 w-2.5 bg-gradient-to-r from-black/40 via-black/10 to-transparent rounded-l-xs"></div>
+<div class="absolute inset-y-0 right-0 w-1 bg-gradient-to-l from-white/20 to-transparent"></div>
+</div>
+<div class="w-20 mt-2 text-center">
+<p class="font-label-sm text-label-sm text-on-surface font-semibold truncate">Orgullo y Prejuicio</p>
+<span class="inline-block px-1.5 py-0.5 text-[9px] font-bold rounded-sm bg-surface-container text-on-surface-variant tracking-wider uppercase">Físico</span>
+</div>
+</div>
+<!-- Libro 3: Dune (Ebook) -->
+<div class="group flex flex-col items-center flex-shrink-0 cursor-pointer transition-transform duration-200 active:scale-95">
+<div class="relative w-[76px] h-[120px] rounded-r-md bg-orange-950 shadow-[4px_6px_14px_rgba(30,27,21,0.28)] transition-all duration-300 group-hover:-translate-y-2">
+<img class="w-full h-full object-cover rounded-r-sm" data-alt="Cover of the science fiction novel Dune showing sweeping golden sand dunes under a vast twilight desert sky with two moons, minimalist elegant aesthetic warm amber tones" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD_MOOpbvpg8QjcnjOrRbpX86lBoJ718co-h2YtGNJDLNebwitCtcKJAk8xPdQaSigvogv28jw1JLufYb-riLC78Vn2yUSwQ5_z-jtb_zcWVWP29KrMXtpC_8X_UJq_JyflJvBJjvz5EMXwJaCv2iAJVPeEDqIzUaQ4z9UeRrIx6LlzNj0ucu1xzg4dkJauLrGM4awisSa7qHeJFe_Lmsmu4qAiwobZTpytdy05Q3eZmVdKhk8G9YKZ_g"/>
+<div class="absolute inset-y-0 left-0 w-2 bg-gradient-to-r from-black/30 via-black/5 to-transparent rounded-l-xs"></div>
+<!-- Badge Digital -->
+<div class="absolute top-1 right-1 w-4 h-4 rounded-full bg-surface-container-highest/90 flex items-center justify-center text-primary shadow-sm">
+<span class="material-symbols-outlined text-[11px]">devices</span>
+</div>
+</div>
+<div class="w-20 mt-2 text-center">
+<p class="font-label-sm text-label-sm text-on-surface font-semibold truncate">Dune</p>
+<span class="inline-block px-1.5 py-0.5 text-[9px] font-bold rounded-sm bg-surface-container-high text-primary tracking-wider uppercase">Digital</span>
+</div>
+</div>
+<!-- Libro 4: Fahrenheit 451 -->
+<div class="group flex flex-col items-center flex-shrink-0 cursor-pointer transition-transform duration-200 active:scale-95">
+<div class="relative w-[72px] h-[112px] rounded-r-md bg-stone-900 shadow-[4px_6px_14px_rgba(30,27,21,0.28)] transition-all duration-300 group-hover:-translate-y-2">
+<img class="w-full h-full object-cover rounded-r-sm" data-alt="Artistic book cover of Fahrenheit 451 featuring a delicate lit matchstick turning into flying paper birds against a warm burnt-umber textured matte background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA8bdd46cK_mH_Aose-GP_VGZWLQF3uZJA0kHoGq4sU-a3g0E570VWD1db-7PVMYD6XNfkoHmfQDzauxLkPAkcgnGhhWhEvSxSjFYxHTWqmGfSrK8qjxW4c8Uk67I4WpbWuPSai5guXjKYbrMX6avYh9Sdz_ysXi8lJuBn9y0I01wWDl_VHACx9goFwrO7m7psoVzy7t_d3uge_0h6-b3YrHRnUGPemokoQfXeDj13P36zQw7vrwy_rhg"/>
+<div class="absolute inset-y-0 left-0 w-2 bg-gradient-to-r from-black/40 via-black/10 to-transparent rounded-l-xs"></div>
+</div>
+<div class="w-20 mt-2 text-center">
+<p class="font-label-sm text-label-sm text-on-surface font-semibold truncate">Fahrenheit 451</p>
+<span class="inline-block px-1.5 py-0.5 text-[9px] font-bold rounded-sm bg-surface-container text-on-surface-variant tracking-wider uppercase">Físico</span>
+</div>
+</div>
+<!-- Añadir Libro en Estantería -->
+<button class="flex flex-col items-center flex-shrink-0 pb-7 opacity-75 hover:opacity-100 transition-opacity">
+<div class="w-[68px] h-[110px] rounded-md bg-surface-container-high/60 flex flex-col items-center justify-center gap-1 text-on-surface-variant shadow-inner">
+<span class="material-symbols-outlined text-[20px]">add_circle</span>
+<span class="font-label-sm text-[10px] text-center px-1">Nuevo libro</span>
+</div>
+<div class="w-20 mt-2 text-center">
+<span class="font-label-sm text-[10px] text-on-surface-variant/70">Vacío</span>
+</div>
+</button>
+</div>
+<!-- Baldosa de madera / Estante físico -->
+<div class="relative w-full z-0 px-2 mt-[-14px]">
+<!-- Superficie superior de la balda de madera de roble claro -->
+<div class="h-3 w-full bg-gradient-to-r from-[#d9be9e] via-[#ebd5ba] to-[#d9be9e] rounded-t-sm shadow-[inset_0_2px_4px_rgba(255,255,255,0.4)]"></div>
+<!-- Grosor de la madera frontal -->
+<div class="h-3 w-full bg-gradient-to-b from-[#bfa280] to-[#a68664] rounded-b-sm shadow-[0_6px_12px_rgba(62,43,26,0.18)] flex items-center justify-between px-6">
+<div class="w-2.5 h-1.5 rounded-full bg-[#836342]/70 shadow-sm"></div>
+<div class="w-2.5 h-1.5 rounded-full bg-[#836342]/70 shadow-sm"></div>
+</div>
+<!-- Sombra proyectada en la pared debajo de la repisa -->
+<div class="h-3 w-full bg-gradient-to-b from-black/15 to-transparent blur-[3px]"></div>
+</div>
+</div>
+</article>
+<!-- Estantería 2: Leyendo y Próximos -->
+<article class="flex flex-col">
+<div class="px-gutter flex items-center justify-between mb-3">
+<div class="flex items-center gap-2">
+<span class="w-6 h-6 rounded-full bg-primary-fixed text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[15px]">menu_book</span>
+</span>
+<h2 class="font-headline-md text-headline-md text-on-surface font-headline-md tracking-tight">Leyendo y Próximos</h2>
+<span class="text-label-sm font-label-sm px-2 py-0.5 rounded-full bg-primary-container/20 text-primary font-semibold">3 en curso</span>
+</div>
+<button class="text-primary hover:text-primary-container font-label-md text-label-md flex items-center gap-1 transition-colors">
+<span class="material-symbols-outlined text-[16px]">add</span>
+<span>Añadir</span>
+</button>
+</div>
+<div class="relative pt-4">
+<div class="flex items-end gap-6 px-gutter overflow-x-auto no-scrollbar relative z-10 min-h-[190px]">
+<!-- Libro 1: Cien años de soledad con marcapáginas -->
+<div class="group flex flex-col items-center flex-shrink-0 cursor-pointer transition-transform duration-200 active:scale-95">
+<div class="relative w-[82px] h-[126px] rounded-r-md bg-emerald-950 shadow-[4px_6px_16px_rgba(30,27,21,0.32)] transition-all duration-300 group-hover:-translate-y-2">
+<img class="w-full h-full object-cover rounded-r-sm" data-alt="Cover of One Hundred Years of Solitude, rich magical realism illustration with yellow butterflies swirling over a misty tropical Macondo jungle, warm antique palette and elegant gold serif title" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBv8EV1-sk2KErwqwDfnxvRBHctlWJMh1Ip6TC1ENbCDv9k-Lr5DoPER6_AVucH1ohqj304JoqX1vplbOUdYcpKghZ8eL_51TiyezsYsfo9pFfVfoxZW7NbtsmV38wNGRqPW3wgK_-jfEm01BzjFnps4wrv4egId-BkBzT2hWuQTYKxi01sHZwPM_adTuvrkZx4wPibDEty2HsBB2KGsWPdVbzBP6qJ_3FxS7AqeljRhGCzuezm_tdRTg"/>
+<div class="absolute inset-y-0 left-0 w-2.5 bg-gradient-to-r from-black/45 via-black/10 to-transparent"></div>
+<!-- Marcapáginas de tela colgando por encima -->
+<div class="absolute -top-3 right-3 w-3 h-7 bg-secondary rounded-b-sm shadow-md flex items-end justify-center pb-0.5">
+<div class="w-1.5 h-1.5 border-b-2 border-r-2 border-surface transform rotate-45 mb-[-2px]"></div>
+</div>
+<!-- Indicador de página actual flotante -->
+<div class="absolute bottom-1 right-1 px-1.5 py-0.5 rounded-sm bg-inverse-surface/85 backdrop-blur-xs text-[9px] text-inverse-on-surface font-bold">
+                p. 214
+              </div>
+</div>
+<div class="w-24 mt-2 text-center">
+<p class="font-label-sm text-label-sm text-on-surface font-semibold truncate">Cien años de soledad</p>
+<div class="w-full bg-surface-container-highest h-1 rounded-full mt-1 overflow-hidden">
+<div class="bg-primary h-full w-[62%] rounded-full"></div>
+</div>
+</div>
+</div>
+<!-- Libro 2: Klara y el sol -->
+<div class="group flex flex-col items-center flex-shrink-0 cursor-pointer transition-transform duration-200 active:scale-95">
+<div class="relative w-[76px] h-[118px] rounded-r-md bg-stone-100 shadow-[4px_6px_14px_rgba(30,27,21,0.25)] transition-all duration-300 group-hover:-translate-y-2">
+<img class="w-full h-full object-cover rounded-r-sm" data-alt="Minimalist modern cover art of Klara and the Sun by Kazuo Ishiguro, warm geometric radiant sun casting soft geometric shadows on a warm linen background, contemporary Japanese aesthetic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCTc07IxOeI1zYmtdSJm5vboFLo3mGTIILs1DJFIdUz5VfZ5fEXSJeABrHMOTjwcGbhzGnM8wclWvkjdOa1tTyegPudTw1kXgINXhZCbLLJ2P7VCY1DCquZ4_kvucD6A7XPsKQVr2mmlvOYrh4VzTTAfk6fHtQRl-9mfTCxtSVj8rSRV--zK3cPGmZWPqbuDz0WRDl3H443BUCTqaFqMB0qKradtotWtPkjZC_bQ6sbBpn5MqWX2bmMzg"/>
+<div class="absolute inset-y-0 left-0 w-2 bg-gradient-to-r from-black/25 via-transparent to-transparent"></div>
+<!-- Indicador Próximo -->
+<span class="absolute top-1 left-1 px-1 rounded-xs bg-tertiary-fixed text-on-tertiary-fixed text-[8px] font-bold">SIGUIENTE</span>
+</div>
+<div class="w-20 mt-2 text-center">
+<p class="font-label-sm text-label-sm text-on-surface font-semibold truncate">Klara y el sol</p>
+<span class="inline-block px-1.5 py-0.5 text-[9px] font-bold rounded-sm bg-surface-container text-on-surface-variant tracking-wider uppercase">Físico</span>
+</div>
+</div>
+<!-- Libro 3: El infinito en un junco -->
+<div class="group flex flex-col items-center flex-shrink-0 cursor-pointer transition-transform duration-200 active:scale-95">
+<div class="relative w-[80px] h-[124px] rounded-r-md bg-amber-900 shadow-[4px_6px_14px_rgba(30,27,21,0.28)] transition-all duration-300 group-hover:-translate-y-2">
+<img class="w-full h-full object-cover rounded-r-sm" data-alt="Editorial book cover of Irene Vallejo El infinito en un junco, classical papyrus reeds intertwined with ancient scrolls and olive branches, soft earthy terracotta tones and refined gold lettering" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCkVraQsCTOxxlL7ams6HXsImCtlEMtTzGC83Qxep1xhYLOpYwKiBZ3fnhlg8KCEUBKjVv7R4EdcLhNdznv6p2A_c71BYmlbjoe55M5IfZxmAMHrfWLIlWNVtZAzpBfQhVLxO1VVvCBvwQBgaTf3bijZYVl5hBBiRB4u6O4yXiWJbOUam4Zv-hm3eOfa686McSNG4oDOmTvp-TrMvDUw1mrtJNQhAGdBEY-g3TeClNANbo6M3U05YPlCQ"/>
+<div class="absolute inset-y-0 left-0 w-2.5 bg-gradient-to-r from-black/40 via-black/10 to-transparent"></div>
+<!-- Badge Audio -->
+<div class="absolute top-1 right-1 w-4 h-4 rounded-full bg-tertiary-fixed text-tertiary flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-[11px]">headphones</span>
+</div>
+</div>
+<div class="w-24 mt-2 text-center">
+<p class="font-label-sm text-label-sm text-on-surface font-semibold truncate">El infinito en un junco</p>
+<span class="inline-block px-1.5 py-0.5 text-[9px] font-bold rounded-sm bg-tertiary-fixed-dim text-on-tertiary-fixed-variant tracking-wider uppercase">Audiolibro</span>
+</div>
+</div>
+<!-- Silueta decorativa marcapáginas / sujeta libros -->
+<div class="flex flex-col items-center justify-end pb-7 flex-shrink-0 opacity-40">
+<div class="w-8 h-16 bg-surface-container-highest rounded-t-sm flex items-center justify-center">
+<span class="material-symbols-outlined text-outline text-[18px]">bookmark</span>
+</div>
+</div>
+</div>
+<!-- Baldosa de madera 2 -->
+<div class="relative w-full z-0 px-2 mt-[-14px]">
+<div class="h-3 w-full bg-gradient-to-r from-[#d9be9e] via-[#ebd5ba] to-[#d9be9e] rounded-t-sm shadow-[inset_0_2px_4px_rgba(255,255,255,0.4)]"></div>
+<div class="h-3 w-full bg-gradient-to-b from-[#bfa280] to-[#a68664] rounded-b-sm shadow-[0_6px_12px_rgba(62,43,26,0.18)] flex items-center justify-between px-6">
+<div class="w-2.5 h-1.5 rounded-full bg-[#836342]/70 shadow-sm"></div>
+<div class="w-2.5 h-1.5 rounded-full bg-[#836342]/70 shadow-sm"></div>
+</div>
+<div class="h-3 w-full bg-gradient-to-b from-black/15 to-transparent blur-[3px]"></div>
+</div>
+</div>
+</article>
+<!-- Estantería 3: Romantasy & Fantasía -->
+<article class="flex flex-col">
+<div class="px-gutter flex items-center justify-between mb-3">
+<div class="flex items-center gap-2">
+<span class="w-6 h-6 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-[15px]">auto_fix_high</span>
+</span>
+<h2 class="font-headline-md text-headline-md text-on-surface font-headline-md tracking-tight">Romantasy &amp; Fantasía</h2>
+<span class="text-label-sm font-label-sm px-2 py-0.5 rounded-full bg-surface-container-high text-on-surface-variant font-medium">2</span>
+</div>
+<button class="text-primary hover:text-primary-container font-label-md text-label-md flex items-center gap-1 transition-colors">
+<span class="material-symbols-outlined text-[16px]">add</span>
+<span>Añadir</span>
+</button>
+</div>
+<div class="relative pt-4">
+<div class="flex items-end gap-6 px-gutter overflow-x-auto no-scrollbar relative z-10 min-h-[190px]">
+<!-- Libro 1: Alas de Sangre -->
+<div class="group flex flex-col items-center flex-shrink-0 cursor-pointer transition-transform duration-200 active:scale-95">
+<div class="relative w-[84px] h-[128px] rounded-r-md bg-stone-900 shadow-[4px_6px_16px_rgba(30,27,21,0.3)] transition-all duration-300 group-hover:-translate-y-2">
+<img class="w-full h-full object-cover rounded-r-sm" data-alt="Lavish book cover of Fourth Wing by Rebecca Yarros, dynamic black dragon soaring through storm clouds with flashes of lightning, metallic gold detailing, dark fantasy mood" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDWHRoto-pdigJoERRDRy_hKJCVQYpOjmBOiiFyqFiQhb8M4Q5Ah-Xv1WWViOZ_q1ggudJv8iID3-avRrlo4I4TIGmaRWLRyUo7Ny2ajy6zYC9Y_0fC8QYGYuSW39qAyCGZiOK2Uzc4t-FuL7liFEN9pHZEFHVM5DAOSwgVCc8-8QK-SjI7GmAHlWg4G7F-tQypKo2rZEb1C78_zuVAbevrhhA_-9imR_dylkfO3woCesdm7q-hCKE5_w"/>
+<div class="absolute inset-y-0 left-0 w-2.5 bg-gradient-to-r from-black/45 via-black/10 to-transparent"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
+</div>
+<div class="w-24 mt-2 text-center">
+<p class="font-label-sm text-label-sm text-on-surface font-semibold truncate">Alas de Sangre</p>
+<p class="font-body-sm text-[10px] text-on-surface-variant truncate">R. Yarros</p>
+</div>
+</div>
+<!-- Libro 2: El nombre del viento -->
+<div class="group flex flex-col items-center flex-shrink-0 cursor-pointer transition-transform duration-200 active:scale-95">
+<div class="relative w-[82px] h-[124px] rounded-r-md bg-cyan-950 shadow-[4px_6px_16px_rgba(30,27,21,0.3)] transition-all duration-300 group-hover:-translate-y-2">
+<img class="w-full h-full object-cover rounded-r-sm" data-alt="Cover of The Name of the Wind by Patrick Rothfuss, a solitary cloaked figure with a lute walking down a cobblestone path under autumn leaves and a starry emerald sky" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB2j6uIA2EWKmdIt2v0aU83cy3oN8WVu1nR8qr84opp3Dmp9wpbLug0K_R1LnoJjEuq660Pd2_y_xaQVpS8VnyqMGUKelgrihZLzxaf1TT67a7FIAbm_XNK0kyxXBF8f4uRAvzadd_IsLbyLepiQ3CTpY9QeRpOELCZFBDSVZgRJVfnYxie3GR9CZjB-NC8bdz1Ch1veMWGoMeA9XqJ5u0HzR3oSgTgIIcyo_JGcZzi8WeYnOYNTXek3w"/>
+<div class="absolute inset-y-0 left-0 w-2.5 bg-gradient-to-r from-black/45 via-black/10 to-transparent"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/35 via-transparent to-transparent"></div>
+</div>
+<div class="w-24 mt-2 text-center">
+<p class="font-label-sm text-label-sm text-on-surface font-semibold truncate">El nombre del viento</p>
+<p class="font-body-sm text-[10px] text-on-surface-variant truncate">P. Rothfuss</p>
+</div>
+</div>
+<!-- Espacio vacío con sujetalibros clásico de bronce -->
+<div class="flex flex-col items-center justify-end pb-8 flex-shrink-0">
+<div class="w-16 h-20 border-b-4 border-l-4 border-tertiary-container/40 rounded-bl-sm flex items-center justify-center p-2 opacity-60">
+<span class="material-symbols-outlined text-tertiary-container text-[24px]">stat_3</span>
+</div>
+<span class="font-label-sm text-[9px] text-on-surface-variant/60 mt-1">Sujetalibros</span>
+</div>
+</div>
+<!-- Baldosa de madera 3 -->
+<div class="relative w-full z-0 px-2 mt-[-14px]">
+<div class="h-3 w-full bg-gradient-to-r from-[#d9be9e] via-[#ebd5ba] to-[#d9be9e] rounded-t-sm shadow-[inset_0_2px_4px_rgba(255,255,255,0.4)]"></div>
+<div class="h-3 w-full bg-gradient-to-b from-[#bfa280] to-[#a68664] rounded-b-sm shadow-[0_6px_12px_rgba(62,43,26,0.18)] flex items-center justify-between px-6">
+<div class="w-2.5 h-1.5 rounded-full bg-[#836342]/70 shadow-sm"></div>
+<div class="w-2.5 h-1.5 rounded-full bg-[#836342]/70 shadow-sm"></div>
+</div>
+<div class="h-3 w-full bg-gradient-to-b from-black/15 to-transparent blur-[3px]"></div>
+</div>
+</div>
+</article>
+</div>
+<!-- Botón de acción editorial: Añadir Nueva Estantería -->
+<section class="px-gutter pt-8 pb-4">
+<button class="w-full py-4 px-5 rounded-2xl bg-surface-container-low hover:bg-surface-container transition-all shadow-sm flex items-center justify-between text-on-surface active:scale-[0.99] group">
+<div class="flex items-center gap-space-md">
+<div class="w-11 h-11 rounded-full bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed group-hover:bg-secondary-container transition-colors">
+<span class="material-symbols-outlined text-[22px]">shelves</span>
+</div>
+<div class="text-left">
+<p class="font-headline-sm text-headline-sm font-headline-md text-on-surface">Crear nueva estantería</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Organiza por estados, sagas o temporadas</p>
+</div>
+</div>
+<span class="material-symbols-outlined text-primary text-[22px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+</section>
+<!-- Diálogo / Micro-nota de inspiración analógica -->
+<div class="px-gutter pt-2 text-center">
+<p class="font-quote-editorial text-quote-editorial text-on-surface-variant italic opacity-85">
+      «Una biblioteca no es un lujo, sino una de las necesidades de la vida.»
+    </p>
+<span class="font-label-sm text-label-sm text-outline tracking-wider uppercase mt-1 block">Henry Ward Beecher</span>
+</div>
+</div>
+<script>
+  // Micro-interacción: Cambio visual entre Vista Estantes y Vista Rejilla
+  const shelvesBtn = document.getElementById('view-shelves-btn');
+  const gridBtn = document.getElementById('view-grid-btn');
+
+  if (shelvesBtn && gridBtn) {
+    gridBtn.addEventListener('click', () => {
+      gridBtn.classList.add('bg-surface', 'shadow-sm', 'text-primary');
+      gridBtn.classList.remove('text-on-surface-variant');
+      shelvesBtn.classList.remove('bg-surface', 'shadow-sm', 'text-primary');
+      shelvesBtn.classList.add('text-on-surface-variant');
+    });
+
+    shelvesBtn.addEventListener('click', () => {
+      shelvesBtn.classList.add('bg-surface', 'shadow-sm', 'text-primary');
+      shelvesBtn.classList.remove('text-on-surface-variant');
+      gridBtn.classList.remove('bg-surface', 'shadow-sm', 'text-primary');
+      gridBtn.classList.add('text-on-surface-variant');
+    });
+  }
+</script></main><div class="fixed bottom-24 right-gutter z-50"><button aria-label="Registrar lectura o añadir libro" class="w-14 h-14 rounded-full bg-primary-container text-on-primary flex items-center justify-center shadow-[0_8px_24px_-2px_rgba(82,110,91,0.38)] ring-2 ring-tertiary-fixed-dim/40 hover:bg-primary transition-all duration-200 active:scale-95"><span class="material-symbols-outlined text-[28px]">add</span></button></div><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface-container-low/90 backdrop-blur-xl shadow-[0_-4px_16px_-4px_rgba(74,53,37,0.08)]" data-active-classes="text-primary font-label-lg font-bold after:content-[''] after:w-1 after:h-1 after:bg-tertiary-fixed-dim after:rounded-full after:mt-1"><div class="flex justify-around items-center h-16 px-space-xs"><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] py-1 text-on-surface-variant hover:text-primary transition-colors duration-150" data-path="inicio" href="#"><span class="material-symbols-outlined text-[22px]">home</span><span class="font-label-sm text-label-sm mt-0.5">Inicio</span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] py-1 text-on-surface-variant hover:text-primary transition-colors duration-150" data-path="mis-lecturas" href="#"><span class="material-symbols-outlined text-[22px]">auto_stories</span><span class="font-label-sm text-label-sm mt-0.5">Lecturas</span></a><a aria-current="page" class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] py-1 transition-colors duration-150 text-primary font-label-lg font-bold after:content-[''] after:w-1 after:h-1 after:bg-tertiary-fixed-dim after:rounded-full after:mt-1" data-path="biblioteca" href="#"><span class="material-symbols-outlined text-[22px]">local_library</span><span class="font-label-sm text-label-sm mt-0.5">Biblioteca</span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] py-1 text-on-surface-variant hover:text-primary transition-colors duration-150" data-path="calendario" href="#"><span class="material-symbols-outlined text-[22px]">calendar_month</span><span class="font-label-sm text-label-sm mt-0.5">Calendario</span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] py-1 text-on-surface-variant hover:text-primary transition-colors duration-150" data-path="perfil" href="#"><span class="material-symbols-outlined text-[22px]">person</span><span class="font-label-sm text-label-sm mt-0.5">Perfil</span></a></div></nav></body></html>
